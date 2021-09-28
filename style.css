@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 300px;
+    margin: 4%;
+}
+
+.profile-cards {
+    display: flex;
+}
+
+.fb-Btn {
+    margin-left: 36%;
+}
+
+.carousel-item {
+    height: 92vh;
+}
+
+.form-design {
+    border: 1px solid rgba(207, 216, 220, 1);
+    outline: none;
+    width: 34.5vw;
+    padding: 1.5%;
+    border-radius: 3px;
+}
+
+.form-design:focus {
+    box-shadow: 0 0 5px rgba(0, 150, 136, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(0, 150, 136, 1);
+    padding: 1.5%;
+}
+.btn-design{
+    /* margin-left: 13.1vw; */
+    background-color: rgba(0, 150, 136, 1);
+    color: white;
+}
+.btn-login:hover{
+    color: white;
+    background-color: rgb(4, 138, 127);
+}
+.tab-design{
+    background-color: rgba(0, 150, 136, 1) !important; 
+    color: white  !important;
+}
